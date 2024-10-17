@@ -7,7 +7,7 @@ const ColorModeSwitch: React.FC = () => {
     return (
     <div>
         <HStack>
-            <Switch colorScheme={'green'} isChecked={colorMode === 'dark'} onChange={toggleColorMode}/>
+            <Switch id={'darkswitch'} colorScheme={'green'} isChecked={colorMode === 'dark'} onChange={toggleColorMode}/>
             <Text>Dark Mode</Text>
         </HStack>
     </div>
